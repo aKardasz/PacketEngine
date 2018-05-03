@@ -11,7 +11,9 @@ import server.eventEmitter.Event;
 import server.packetEngine.packets.ChatPacket;
 
 /**
- * @author adria
+ * @author Adrian Kardasz
+ * Engine to convert classes that extend the packet class to a byte[]
+ * that can be sent using Datagram
  *
  */
 public class PacketEngine {
